@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Add Query" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="View Staff" />
+
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Add Reply" />
+        <item
+            android:id="@+id/nav_rep"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="View Reply" />
+        <item
+            android:id="@+id/nav_coment"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Comment" />
+        <item
+            android:id="@+id/nav_rem"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Add Rating" />
+        <item
+            android:id="@+id/nav_vrating"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="View Rating" />
+        <item
+            android:id="@+id/nav_cmp"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Add Complaint" />
+        <item
+            android:id="@+id/nav_notice"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="View Notice" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Change Password" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

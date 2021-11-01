@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shivu.staffstudent">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".homepage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".staff_details"
+            android:label="Staff Details" />
+        <activity
+            android:name=".viewrating"
+            android:label="View Rating" />
+        <activity
+            android:name=".querydetails"
+            android:label="Query Details" />
+        <activity
+            android:name=".studentdetails"
+            android:label="Student Details" />
+        <activity
+            android:name=".department"
+            android:label="Department" />
+        <activity
+            android:name=".replydetails"
+            android:label="Reply Details" />
+        <activity
+            android:name=".commentreply"
+            android:label="Comment Reply" />
+        <activity
+            android:name=".feedback"
+            android:label="Feedback" />
+        <activity
+            android:name=".remarks"
+            android:label="Remarks" />
+        <activity
+            android:name=".rating"
+            android:label="Add Rating" />
+        <activity
+            android:name=".login"
+            android:label="Login" />
+        <activity
+            android:name=".viewstaffdetails"
+            android:label="Staff Details" />
+        <activity
+            android:name=".viewquerydetails"
+            android:label="Query Details" />
+        <activity android:name=".viewstudentdetails"
+            android:label="View Student  Details" />
+        <activity android:name=".viewdepartment"
+            android:label="View Department"/>
+        <activity android:name=".viewreplydetails"
+            android:label="View Reply Details"/>
+        <activity android:name=".viewcommentreply"
+            android:label="View Comment Reply"/>
+        <activity android:name=".viewfeedback"
+            android:label="View Feedback"/>
+        <activity android:name=".viewremarks"
+            android:label="View Remarks"/>
+        <activity android:name=".viewlogin"
+            android:label="View Login"/>
+        <activity android:name=".staffhome"
+            android:label="Welcome to Staff Homepage"/>
+        <activity android:name=".principlehome"
+            android:label="Welcome to Principle Homepage"/>
+        <activity android:name=".studenthome"
+            android:label="Welcome to Student Homepage"/>
+        <activity android:name=".viewnotice"
+            android:label="View Notice"/>
+        <activity android:name=".hodhome"
+            android:label="Welcome to HOD Homepage"/>
+        <activity android:name=".changepassword"
+            android:label="Change Password"/>
+        <activity android:name=".forgotpass"
+            android:label="Forgot Password"/>
+        <activity android:name=".viewquerydetailsonly" />
+        <activity android:name=".otp" />
+        <activity
+            android:name=".newstudenthome"
+            android:label="@string/title_activity_newstudenthome"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".addnotice" />
+        <activity android:name=".addrating" />
+        <activity android:name=".addcomplaint" />
+        <activity android:name=".deluser"></activity>
+    </application>
+
+</manifest>
